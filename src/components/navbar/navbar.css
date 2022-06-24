@@ -24,11 +24,22 @@
 .navigation-menu ul {
   display: flex;
   padding: 0;
+  margin-left: 20px;
 }
 
 .navigation-menu li {
   list-style-type: none;
-  margin: 0 1rem;
+  margin: 0 1.5rem;
+}
+
+.navigation-menu li.register{
+  background-color: teal;
+  padding: 7px 10px;
+  color: white;
+  border-radius: 20px;
+  margin: auto;
+  display: inline;
+
 }
 
 .navigation-menu li a {
